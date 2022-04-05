@@ -27,6 +27,7 @@ public class UserController {
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public String register(@ModelAttribute("user") User user){
         System.out.println(user);
+        System.out.print("register");
         return "register_success";
     }
 }
