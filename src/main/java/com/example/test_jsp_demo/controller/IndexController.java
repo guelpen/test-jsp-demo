@@ -20,4 +20,9 @@ public class IndexController {
         return "hello";
     }
 
+    @GetMapping("/hi-hello")
+    public String hiHello(){
+        return "hi-hello";
+    }
+
 }
