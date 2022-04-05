@@ -28,6 +28,7 @@ public class UserController {
     public String register(@ModelAttribute("user") User user){
         System.out.println(user);
         System.out.print("register");
+        System.out.print("new change");
         return "register_success";
     }
 }
