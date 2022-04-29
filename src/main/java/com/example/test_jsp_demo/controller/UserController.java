@@ -40,6 +40,7 @@ public class UserController {
         System.out.println(user);
         System.out.print("register");
         System.out.print("new change");
+        System.out.print("new change 2");
         return "register_success";
     }
 
